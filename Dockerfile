@@ -1,4 +1,4 @@
-# Minify client side assets (JavaScript)
+# Minify client side assets (JavaScript)##
 FROM node:latest AS build-js
 
 RUN npm install gulp gulp-cli -g
